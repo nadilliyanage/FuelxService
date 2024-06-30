@@ -1,0 +1,174 @@
+.container {
+  float: left;
+  max-width: 100%;
+  max-height:100%;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  border: 1px solid #ccc;
+  background-color: #262626;
+  padding: 20px;
+  border-radius:25px;
+}
+
+h2 {
+  text-align: center;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+select {
+  width: 95%;
+  padding: 12px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:25px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row div.col {
+  float: left;
+  width: 50%;
+	
+}
+
+input[type=submit] {
+  background-color: #4fea55;
+  color: white;
+  padding: 14px 20px;
+	position: relative;
+	left: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  border-radius:25px;
+}
+
+
+
+input[type=submit]:hover {
+  background-color: #3ea842;
+}
+
+input:invalid {
+  border-color: red;
+}
+
+.login-button1,
+.login-button2,
+.login-button3 {
+  background-color: #4267B2;
+  color: #fff;
+  padding: 10px 20px;
+  border: solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  float: right;
+  margin-right: 10px;
+  margin-top: 10px;
+	border-radius:25px;
+}
+
+.login-button1:hover
+ {
+  background-color: #3B5998;
+}
+
+.login-button2 {
+  background-color: #0F9D58;
+}
+
+.login-button2:hover {
+  background-color: #013220;
+}
+
+.login-button3 {
+  background-color: #1338BE;
+	
+}
+
+.login-button3:hover {
+  background-color: #1520A6;
+}
+
+.pic{
+	height:200px;
+	width:500px;
+	padding:20px
+	
+}
+
+.signup{
+  color: #ffffff;
+  background-color: #32b437;
+  border: 2px solid black;
+  padding: 15px;
+  position:relative;
+	top: 1000%;
+  margin-left:20%;
+  border-radius:25px;
+}
+
+.updtbtn {
+	color: #ffffff;
+  background-color: #32b437;
+  border: 2px solid black;
+  padding: 15px;
+  margin-left:90px;
+  border-radius:25px;
+  position: relative;
+  top: 5px;
+  right: 80px;
+}
+
+.dltbtn {
+  color: #ffffff;
+  background-color: rgb(177, 0, 6);
+  border: 2px solid black;
+  padding: 15px;
+  margin-left:90px;
+  border-radius:25px;
+  position: relative;
+  top: -45px;
+  right: -40px;
+}
+
+.signup:hover{
+	background-color:darkgreen;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row div.col {
+  float: left;
+  width: 50%;
+}
+
+.field {
+  width: 95%;
+  padding: 12px;
+  margin: 8px 0;
+  display: flex;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius:25px;
+}
